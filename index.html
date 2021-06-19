@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>api</title>
+</head>
+<body>
+    <canvas id="myChart"></canvas>
+    <p>
+        <b> Курс белорусского рубля по отношению
+            к иностранным валютам.</b>
+    </p>
+    <span id="Cur" >Валюта: 
+        <select id="model">
+            <option value="145">USD</option>
+            <option value="292">EUR</option>
+            <option value="298">RUR</option>
+        </select>
+    </span>
+    
+    <input type="date" id="date1">
+	<input type="date" id="date2"> 
+
+    <input type="button" id="btn" value="получить" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.js"></script>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
